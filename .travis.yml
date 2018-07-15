@@ -52,7 +52,7 @@ deploy:
   api_key: "$GIT_OAUTH_TOKEN_TB"
   
   on:
-    tags: false
+    tags: true
     repo: AOGP/android_kernel_condor_a8
     branch: mtk-up318y-pctd4
 

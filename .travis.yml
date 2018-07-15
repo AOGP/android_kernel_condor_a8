@@ -36,9 +36,9 @@ script:
   - KERNEL_DIR=$PWD/android_kernel_condor_a8
   - ZIMAGE=$KERNEL_DIR/arch/arm64/boot/zImage
   #- mkdir /home/travis/build/ALGPHELLO/android_kernel_condor_gnsz6753_66_n/tools/tools
-  #- make O=out gnsz6753_66_n_defconfig
-  #- make O=out -j16
-  - make ARCH=arm64 CROSS_COMPILE=$CROSS_COMPILE O=out -j16 
+  - make O=out gnsz6753_66_n_defconfig
+  - make O=out -j16
+  #- make ARCH=arm64 CROSS_COMPILE=$CROSS_COMPILE O=out -j16 
   #- bash build.sh
   #- make -j16
   #- make ARCH=arm64 -j16 clean mrproper
